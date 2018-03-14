@@ -29,7 +29,7 @@ public class Student {
 	public void setYear(int year) {
 		this.year = year;
 	}
-	
+
 	public Student() {
 	}
 

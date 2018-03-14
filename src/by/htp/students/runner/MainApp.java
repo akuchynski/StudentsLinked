@@ -1,6 +1,6 @@
 package by.htp.students.runner;
 
-import by.htp.students.bean.Node;
+import by.htp.students.bean.Group;
 import by.htp.students.bean.Student;
 
 public class MainApp {
@@ -17,22 +17,22 @@ public class MainApp {
 
 		Student student101 = new Student("Name101", 29, 2000);
 
-		Node node = new Node();
+		Group grp = new Group();
 
-		node.addNewStudent(student1);
-		node.addNewStudent(student2);
-		node.addNewStudent(student3);
-		node.addNewStudent(student4);
-		node.addNewStudent(student5);
-		node.addNewStudent(student6);
-		node.addNewStudent(student7);
+		grp.addNewStudent(student1);
+		grp.addNewStudent(student2);
+		grp.addNewStudent(student3);
+		grp.addNewStudent(student4);
+		grp.addNewStudent(student5);
+		grp.addNewStudent(student6);
+		grp.addNewStudent(student7);
 
-		node.viewAllStudents();
-		node.findStudent("Name5");
-		node.deleteStudent("Name3");
-		node.viewAllStudents();
-		node.addNewStudent(student101, 2);
-		node.viewAllStudents();
-
+		grp.viewAllStudents();
+		grp.findStudent("Name5");
+		grp.deleteStudent("Name3");
+		grp.viewAllStudents();
+		grp.addNewStudent(student101, 2);
+		grp.viewAllStudents();
+		
 	}
 }
